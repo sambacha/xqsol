@@ -1,0 +1,25 @@
+{
+  "name": "xqsol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/xqsol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/xqsol/issues"
+  },
+  "homepage": "https://github.com/sambacha/xqsol#readme",
+  "dependencies": {
+    "fontoxpath-module-loader": "^1.0.1",
+    "npmlog": "^4.1.2",
+    "slimdom-sax-parser": "^1.4.0"
+  }
+}
