@@ -1,7 +1,7 @@
 (:~
  : The AST to EBNF conversion module.
  :)
-module namespace b="de/bottlecaps/railroad/xq/ast-to-ebnf.xq";
+module namespace b="xqsol/ast-to-ebnf.xq";
 
 declare namespace g="http://www.w3.org/2001/03/XPath/grammar";
 
