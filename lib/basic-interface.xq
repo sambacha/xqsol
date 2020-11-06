@@ -2,13 +2,13 @@
  : The basic interface module, containing code that drives parsing and
  : conversion to svg and xhtml.
  :)
-module namespace i="de/bottlecaps/railroad/xq/basic-interface.xq";
+module namespace i="/xq/basic-interface.xq";
 
 declare namespace p="Parser";
-import module namespace a="de/bottlecaps/railroad/xq/cst-to-ast.xq" at "cst-to-ast.xq";
-import module namespace v="de/bottlecaps/railroad/xq/ast-to-svg.xq" at "ast-to-svg.xq";
-import module namespace t="de/bottlecaps/railroad/xq/transform-ast.xq" at "transform-ast.xq";
-import module namespace style="de/bottlecaps/railroad/xq/style.xq" at "style.xq";
+import module namespace a="/xq/cst-to-ast.xq" at "cst-to-ast.xq";
+import module namespace v="/xq/ast-to-svg.xq" at "ast-to-svg.xq";
+import module namespace t="/xq/transform-ast.xq" at "transform-ast.xq";
+import module namespace style="/xq/style.xq" at "style.xq";
 
 declare namespace xhtml="http://www.w3.org/1999/xhtml";
 

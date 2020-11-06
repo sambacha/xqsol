@@ -2,7 +2,7 @@
  : This is the web scraper module that contains functions for extracting
  : grammars out of W3C specs.
  :)
-module namespace e="de/bottlecaps/railroad/xq/html-to-ebnf.xq";
+module namespace e="/xq/html-to-ebnf.xq";
 
 declare namespace xhtml="http://www.w3.org/1999/xhtml";
 

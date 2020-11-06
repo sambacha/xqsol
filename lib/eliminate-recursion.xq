@@ -1,9 +1,9 @@
 (:~
  : Eliminating direct recursion from an EBNF grammar.
  :)
-module namespace r="de/bottlecaps/railroad/xq/eliminate-recursion.xq";
-import module namespace n="de/bottlecaps/railroad/xq/normalize-ast.xq" at "normalize-ast.xq";
-import module namespace b="de/bottlecaps/railroad/xq/ast-to-ebnf.xq" at "ast-to-ebnf.xq";
+module namespace r="/xq/eliminate-recursion.xq";
+import module namespace n="/xq/normalize-ast.xq" at "normalize-ast.xq";
+import module namespace b="/xq/ast-to-ebnf.xq" at "ast-to-ebnf.xq";
 declare namespace g="http://www.w3.org/2001/03/XPath/grammar";
 
 (:~

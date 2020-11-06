@@ -6,7 +6,7 @@
  : "http://www.w3.org/2001/03/XPath/grammar", though actually
  : using a few minor modifications of the original structure.
  :)
-module namespace a="de/bottlecaps/railroad/xq/cst-to-ast.xq";
+module namespace a="/xq/cst-to-ast.xq";
 
 declare namespace g="http://www.w3.org/2001/03/XPath/grammar";
 

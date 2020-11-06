@@ -1,12 +1,12 @@
 (:~
  : The SVG rendering module for grammars.
  :)
-module namespace s="de/bottlecaps/railroad/xq/ast-to-svg.xq";
+module namespace s="/xq/ast-to-svg.xq";
 
-import module namespace c="de/bottlecaps/railroad/xq/color.xq" at "color.xq";
-import module namespace style="de/bottlecaps/railroad/xq/style.xq" at "style.xq";
-import module namespace n="de/bottlecaps/railroad/xq/normalize-ast.xq" at "normalize-ast.xq";
-import module namespace b="de/bottlecaps/railroad/xq/ast-to-ebnf.xq" at "ast-to-ebnf.xq";
+import module namespace c="/xq/color.xq" at "color.xq";
+import module namespace style="/xq/style.xq" at "style.xq";
+import module namespace n="/xq/normalize-ast.xq" at "normalize-ast.xq";
+import module namespace b="/xq/ast-to-ebnf.xq" at "ast-to-ebnf.xq";
 
 declare default element namespace "http://www.w3.org/2000/svg";
 

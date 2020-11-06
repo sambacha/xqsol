@@ -1,4 +1,4 @@
-module namespace m="de/bottlecaps/railroad/xq/xhtml-to-md.xq";
+module namespace m="/xq/xhtml-to-md.xq";
 
 declare namespace svg="http://www.w3.org/2000/svg";
 declare namespace xhtml="http://www.w3.org/1999/xhtml";

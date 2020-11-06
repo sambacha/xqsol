@@ -1,7 +1,7 @@
 (:~
  : The color code conversion module.
  :)
-module namespace c = "de/bottlecaps/railroad/xq/color.xq";
+module namespace c = "/xq/color.xq";
 
 (:~
  : The pattern to identify color codes.

@@ -1,10 +1,10 @@
 (:~
  : The CSS definitions module.
  :)
-module namespace style="de/bottlecaps/railroad/xq/style.xq";
+module namespace style="/xq/style.xq";
 
-import module namespace c="de/bottlecaps/railroad/xq/color.xq" at "color.xq";
-import module namespace v="de/bottlecaps/railroad/xq/ast-to-svg.xq" at "ast-to-svg.xq";
+import module namespace c="/xq/color.xq" at "color.xq";
+import module namespace v="/xq/ast-to-svg.xq" at "ast-to-svg.xq";
 
 declare namespace xhtml="http://www.w3.org/1999/xhtml";
 

@@ -8,9 +8,9 @@
  : The reverse operation, here called denormalization, attempts to reinstall
  : the other operators for better readability of EBNF grammars.
  :)
-module namespace n="de/bottlecaps/railroad/xq/normalize-ast.xq";
+module namespace n="/xq/normalize-ast.xq";
 
-import module namespace b="de/bottlecaps/railroad/xq/ast-to-ebnf.xq" at "ast-to-ebnf.xq";
+import module namespace b="/xq/ast-to-ebnf.xq" at "ast-to-ebnf.xq";
 
 declare namespace g="http://www.w3.org/2001/03/XPath/grammar";
 

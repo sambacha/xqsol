@@ -1,4 +1,4 @@
-module namespace d="de/bottlecaps/railroad/xq/disassemble.xq";
+module namespace d="/xq/disassemble.xq";
 
 declare namespace svg="http://www.w3.org/2000/svg";
 declare namespace xhtml="http://www.w3.org/1999/xhtml";

@@ -2,15 +2,15 @@
  : The user interface module, containing most of the code that deals
  : with user requests and responses served to the user.
  :)
-module namespace ui="de/bottlecaps/railroad/xq/user-interface.xq";
+module namespace ui="/xq/user-interface.xq";
 
-import module namespace c="de/bottlecaps/railroad/xq/color.xq";
-import module namespace style="de/bottlecaps/railroad/xq/style.xq";
-import module namespace e="de/bottlecaps/railroad/xq/html-to-ebnf.xq";
-import module namespace a="de/bottlecaps/railroad/xq/cst-to-ast.xq";
-import module namespace s="de/bottlecaps/railroad/xq/ast-to-svg.xq";
-import module namespace t="de/bottlecaps/railroad/xq/transform-ast.xq";
-import module namespace m="de/bottlecaps/railroad/xq/xhtml-to-md.xq";
+import module namespace c="/xq/color.xq";
+import module namespace style="/xq/style.xq";
+import module namespace e="/xq/html-to-ebnf.xq";
+import module namespace a="/xq/cst-to-ast.xq";
+import module namespace s="/xq/ast-to-svg.xq";
+import module namespace t="/xq/transform-ast.xq";
+import module namespace m="/xq/xhtml-to-md.xq";
 
 declare namespace p="Parser";
 declare namespace webapp="http://bottlecaps.de/webapp";
